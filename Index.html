@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduates</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/fonts.css">
+</head>
+
+<body>
+    <div class="container container_m mt-1">
+        <div class="">
+            <div class="user-info pt-2">
+                <div class="user-info__photo">
+                    <img class="user-info__photo__img" src="src/images/photo.png" alt="user photo" width="180px"
+                        height="180px">
+                    <div class="user-info__block__heading_main">Василь Глухенький</div>
+                </div>
+                <div>
+                    <div class="accordion accordion-flush" id="accordionUser-info">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="User-accordion-heading">
+                                <button class="accordion-button collapsed user-info__block__heading" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseUser" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Детальніше
+                                </button>
+                            </h2>
+                            <div id="flush-collapseUser" class="accordion-collapse collapse"
+                                aria-labelledby="User-accordion-heading" data-bs-parent="#accordionUser-info">
+                                <div class="accordion-body">
+                                    <div class="user-info__block user-info__block_m">
+                                        <div class="user-info__block__heading">КОНТАКТИ</div>
+                                        <hr>
+                                        <div class="user-info__block__item row">
+                                            <button class="user-info__block__item__location user-info__block__item"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseExample" aria-expanded="false"
+                                                aria-controls="collapseExample"></button>
+                                            <a class="user-info__block__item col" data-bs-toggle="collapse"
+                                                href="#collapseExample" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample">807 5th Ave, New York,
+                                                NY 10065, USA</a>
+                                            <div class="collapse" id="collapseExample">
+                                                <div class="card card-body">
+                                                    <iframe
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8264963207516!2d-73.97358148493294!3d40.765840679326004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f1d4dedbdd%3A0xfefbd509be6aae86!2zODA3IDV0aCBBdmUsIE5ldyBZb3JrLCBOWSAxMDA2NSwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1677535891053!5m2!1sru!2sua"
+                                                        width="300" height="300" style="border:0;" allowfullscreen=""
+                                                        loading="lazy"
+                                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="user-info__block__item row">
+                                            <button class="user-info__block__item__phone" type="button">
+                                            </button>
+                                            <a class="user-info__block__item col"
+                                                href="tel:+1-(212)-555-0160">+1-(212)-555-0160</a>
+                                        </div>
+                                        <div class="user-info__block__item row">
+                                            <button class="user-info__block__item__email" type="button"></button>
+                                            <a class="user-info__block__item col"
+                                                href="mailto:univer@gmail.com">univer@gmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="user-info__block user-info__block_m">
+                                        <div class="user-info__block__heading">СОЦІАЛЬНІ МЕРЕЖІ</div>
+                                        <hr>
+                                        <div class="user-info__block__item">
+                                            <ul>
+                                                <li>
+                                                    <a class="user-info__block__item col"
+                                                        href="https://www.linkedin.com/in/vasyl-hlukhenkyi-312b84209/"
+                                                        target="_blank">Linkedin</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="user-info__block user-info__block_m">
+                                        <div class="user-info__block__heading">ОСВІТА / РОБОТА</div>
+                                        <hr>
+                                        <div>
+                                            <span class="user-info__block__heading_smal">Освіта:</span>
+                                            <span class="user-info__block__item">Вища</span>
+                                        </div>
+                                        <div>
+                                            <span class="user-info__block__heading_smal">Працює:</span>
+                                            <span class="user-info__block__item">DevOPS</span>
+                                        </div>
+                                        <div>
+                                            <span class="user-info__block__heading_smal">Форма навчання:</span>
+                                            <span class="user-info__block__item">Вечірня</span>
+                                        </div>
+                                        <div>
+                                            <span class="user-info__block__heading_smal">Тренер:</span>
+                                            <span class="user-info__block__item">Vinnytsia IT Akademy</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="accordion accordion-flush" id="accordionServise">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="Servise-accordion-heading">
+                                    <button class="accordion-button collapsed user-info__block__heading" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseServise"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Сервіси
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseServise" class="accordion-collapse collapse"
+                                    aria-labelledby="Servise-accordion-heading" data-bs-parent="#accordionServise">
+                                    <div class="accordion-body">
+                                        <div class="user-intita-details__servise">
+                                            <div class="user-intita-details__servise__title d-flex">
+                                                <span>курси</span>
+                                                <hr>
+                                            </div>
+                                            <div class="servise-card">
+                                                <div class=" servise-card__body ">
+                                                    <div class=" servise-card__text">
+                                                        <div class="servise-card__title servise-card_hover">
+                                                            <a href="https://intita.com/courses/3" target="_blank">Java
+                                                                Developer</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="servise-card__logo">
+                                                        <a href="https://intita.com/courses/3" target="_blank">
+                                                            <img src="src/images/java.png" alt="logo">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="servise-card__footer">
+                                                    <div class="servise-card__footer__level">
+                                                        <img src="src/images/Group 579.svg" alt="volume">
+                                                        <span>Сильний початківець</span>
+                                                    </div>
+                                                    <div class="servise-card__footer__lang">
+                                                        <img src="src/images/Group.svg" alt="planet">
+                                                        <div class="dropdown lang">
+                                                            <a class="btn dropdown-toggle" href="#" role="button"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                ua
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">en</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="user-intita-details__servise">
+                                            <div class="user-intita-details__servise__title d-flex">
+                                                <span>модулі</span>
+                                                <hr>
+                                            </div>
+                                            <div class="servise-card">
+                                                <div class=" servise-card__body ">
+                                                    <div class=" servise-card__text">
+                                                        <div class="servise-card__title servise-card_hover">
+                                                            <a href="https://intita.com/modules/316"
+                                                                target="_blank">English Marathon</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="servise-card__logo">
+                                                        <a href="https://intita.com/modules/316" target="_blank">
+                                                            <img src="src/images/english.png" alt="logo">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="servise-card__footer">
+                                                    <div class="servise-card__footer__level">
+                                                        <img src="src/images/Group 579.svg" alt="volume">
+                                                        <span>Високий</span>
+                                                    </div>
+                                                    <div class="servise-card__footer__lang">
+                                                        <img src="src/images/Group.svg" alt="planet">
+                                                        <div class="dropdown lang">
+                                                            <a class="btn dropdown-toggle" href="#" role="button"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                ua
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">en</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionProject">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="Project-accordion-heading">
+                                <button class="accordion-button collapsed user-info__block__heading" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseProject"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Проекти
+                                </button>
+                            </h2>
+                            <div id="flush-collapseProject" class="accordion-collapse collapse"
+                                aria-labelledby="Project-accordion-heading" data-bs-parent="#accordionProject">
+                                <div class="accordion-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionFeedback">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="Feedback-accordion-heading">
+                                <button class="accordion-button collapsed user-info__block__heading" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFeedback"
+                                    aria-expanded="false" aria-controls="flush-collapseFour">
+                                    Твій відгук
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFeedback" class="accordion-collapse collapse"
+                                aria-labelledby="Feedback-accordion-heading" data-bs-parent="#accordionFeedback">
+                                <div class="accordion-body feedback feedback_m">
+                                    <p class="container-fluid ">Колись давно, маючи диплом про вищу освіту і неясні
+                                        перспективи, я
+                                        вирішив зв'язати своє життя із програмуванням. Так почалося моє навчання у
+                                        Вінницькій
+                                        ІТ-Академії.
+                                        Перед початком навчання мав доволі посередні знання про програмування - пробував
+                                        проходити всякі
+                                        онлайн курси, але там постійно чогось не вистачало.
+                                        Згодом, провчившись деякий час, я зрозумів - мені не вистачало спілкування із
+                                        такими ж
+                                        бідолагами, коли ви обговорюєте задачу, яку не можете вирішити, спільними
+                                        зусиллями допомагаєте
+                                        один одному віднайти підхід до вирішення.
+                                        Отож, коротко про те, що мені дала ІТ-Академія:
+                                        - можливість спілкуватись і обмінюватися інформацією (це дуже важливо, особливо
+                                        на початковому
+                                        етапі - ви не один)
+                                        - англійська, ні, АНГЛІЙСЬКА (вона тут шикарна. Просто робіть всі завдання, якщо
+                                        по розробці не
+                                        дотягуєте - англійська вас врятує.
+
+                                        п.с. як можна раніше починайте відвідувати speaking club (спитайте у викладача))
+                                        - алгоритмічне мислення, низькорівневі процеси.
+                                        Ти вчиш англійську, освоюєш дзен програмування, щось пробуєш розібрати, питаєш
+                                        постійно, коли
+                                        питання є (уяви, що майбутнє світу залежить від того, чи задаси ти питання; тому
+                                        постійно маючи
+                                        щось, що не можеш зрозуміти - ПИТАЙ), вчиш англійську, а потім - вчиш англійську
+                                        - якось так я
+                                        би порадив вести себе, якщо плануєш винести якийсь багаж із ІТ-Академії.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionDiploma">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="Diploma-accordion-heading">
+                                <button class="accordion-button collapsed user-info__block__heading" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseDiploma"
+                                    aria-expanded="false" aria-controls="flush-collapseFive">
+                                    Сертифікати
+                                </button>
+                            </h2>
+                            <div id="flush-collapseDiploma" class="accordion-collapse collapse"
+                                aria-labelledby="Diploma-accordion-heading" data-bs-parent="#accordionDiploma">
+                                <div class="accordion-body text-center diploma_m">
+                                    <img src="src/images/diploma..png" alt="sertificate">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div
+                    class="public-oferta_m d-flex align-items-center justify-content-center user-intita-details__block">
+                    <div class="public-oferta__icon_m">
+                        <button class="public-oferta__icon_btn_m" type="button" data-bs-toggle="modal"
+                            data-bs-target="#oferta"></button>
+                    </div>
+                    <div class="public-oferta__title_m user-intita-details__title">
+                        <a href="https://intita.com/policy" target="_blank">Публічна оферта</a>
+                    </div>
+                    <div class="modal fade" id="oferta" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <div class="modal-body">
+                                    ДОГОВІР З НАДАННЯ ІНФОРМАЦІЙНИХ ПОСЛУГ
+                                    (НА ОСНОВІ ПУБЛІЧНОЇ ОФЕРТИ)
+                                    ТОВ “Вінницька ІТ-Академія”, в подальшому «Виконавець» пропонує будь-якій
+                                    фізичній особі
+                                    (надалі – «Замовник») укласти договір про надання інформаційних послуг на
+                                    наступних
+                                    умовах:
+                                    ВИКОРИСТАНІ ТЕРМІНИ:
+                                    ПУБЛІЧНА ОФЕРТА – пропозиція «Виконавця», викладена не веб-сайті:
+                                    http://intita.com/,
+                                    адресована невизначеному колу фізичних осіб, укласти договір на визначених
+                                    умовах.
+                                    ДОГОВІР - договір про надання інформаційних послуг, укладений між Замовником та
+                                    Виконавцем на умовах публічної оферти в момент акцепту замовником її умов.
+                                    АКЦЕПТ - повне та безумовне, беззастережне прийняття Замовником умов публічної
+                                    оферти.
+                                    Моментом акцепту вважається заявка Замовника на отримання інформаційних послуг.
+                                    ПОСЛУГА - надання виконавцем замовнику інформаційних послуг у сфері
+                                    інформатизації.
+                                    ЗАЯВКА - звернення Замовника до Виконавця, здійснене шляхом телефонного дзвінка,
+                                    електронного повідомлення.
+                                    1. ПРЕДМЕТ ДОГОВОРА
+                                    1.1. Предметом даного договору є послуга з надання виконавцем замовнику
+                                    інформаційного
+                                    консультування з питань інформатизіції: розкриття інформації з основ
+                                    Алгоритмізації і
+                                    програмування, дискретної математики, розробки та аналізу алгоритмів,
+                                    елементарної та
+                                    вищої математики, баз даних, комп'ютерних мереж, ООП, інтернет-програмування,
+                                    програмування під мобільні платформи, сучасні технології розробки програмних
+                                    продуктів,
+                                    англійської мови для програмістів тощо.
+                                    1.2. Замовник зобов'язується прийняти послуги, що надаються, і оплатити їх.
+                                    1.3. З урахуванням того, що текст цього Договору є публічною офертою
+                                    (пропозицією
+                                    укласти договір), Замовник і Виконавець визнають, що ухваленням пропозиції
+                                    укласти
+                                    договір є факт оформлення сторонами бланка заявки (Акцепту) з основними вимогами
+                                    Замовника (тематичне завдання), в процесі оформлення якого Замовник повідомляє
+                                    свої
+                                    реквізити і приймає текст цього Договору.
+                                    2. ВАРТІСТЬ ПОСЛУГ І ПОРЯДОК ЇХ ОПЛАТИ
+                                    2.1. Вартість робіт за даною угодою визначається Виконавцем.
+                                    2.2. Форма оплати: готівковий або безготівковий розрахунок.
+                                    2.3. Заявлена вартість послуг є попередньою і може бути змінена в
+                                    односторонньому
+                                    порядку Виконавцем залежно від терміновості, складності, об'єму здійснюваних дій
+                                    і
+                                    можливостей Виконавця.
+                                    2.4. У випадках, коли неможливість виконання виникла з обставин, за які жодна із
+                                    сторін
+                                    не відповідає. Замовник відшкодовує Виконавцеві фактично понесені ним витрати.
+                                    3. ПРАВА І ОБОВ'ЯЗКИ ЗАМОВНИКА
+                                    3.1. Обов'язки Замовника
+                                    3.1.1. Замовник зобов'язується провести своєчасну оплату послуг Виконавця.
+                                    3.1.2. Замовник зобов'язаний здійснити все інші дії, необхідні для виконання
+                                    даного
+                                    договору, передбачені законодавством і цим договором.
+                                    3.2. Права Замовника
+                                    3.2.1. Замовник має право за наявності конкретних питань (уточнюючі,
+                                    деталізуючі)
+                                    звернутися за консультацією.
+                                    4. ПРАВА І ОБОВ'ЯЗКИ ВИКОНАВЦЯ
+                                    4.1. Права Виконавця
+                                    4.1.1. Виконавець має право не надавати послуги, а початі дії з надання послуг
+                                    припинити
+                                    у випадках, коли порушення Замовником своїх обов'язків за даною угодою у
+                                    відповідність з
+                                    п.3.1.1 - п.3.1.2.
+                                    4.1.2. Виконавець має право самостійно визначати способи і об'єм дій з виконання
+                                    завдання Замовника, враховуючи вимоги завдання Замовника.
+                                    4.1.3. Виконавець має право використовувати і розпоряджатися результатами
+                                    власної
+                                    діяльності з надання інформаційних послуг, наданими Замовникові за власним
+                                    розсудом, у
+                                    тому числі і надавати їх третім особам.
+                                    4.2. Обов'язки Виконавця
+                                    4.2.1. Виконавець зобов'язується надати передбачені цим Договором послуги.
+                                    5. ЗАБЕЗПЕЧЕННЯ ВИКОНАННЯ ЗОБОВ'ЯЗАНЬ І ВІДПОВІДАЛЬНІСТЬ СТОРІН
+                                    5.1. Виконавець не несе відповідальності за спричинення збитків Замовникові, а
+                                    також
+                                    спричинення йому моральної шкоди діями третіх осіб в результаті невиконання
+                                    Замовником
+                                    навчального плану відповідного учбового закладу.
+                                    6. ЯКІСТЬ ПОСЛУГ І ПОРЯДОК ПРЕД'ЯВЛЕННЯ ПРЕТЕНЗІЙ
+                                    6.1. Замовник не має права пред'являти Виконавцеві вимог щодо неналежної якості
+                                    наданих
+                                    послуг у разі відсутності позитивного для Замовника результату.
+                                    6.2. Виконавець несе відповідальність за достовірність результатів своєї
+                                    діяльності з
+                                    надання інформаційних послуг.
+                                    6.3. Всі претензії Замовника з приводу якості наданих Виконавцем послуг
+                                    пред'являються
+                                    письмово з вказівкою переліку конкретних дій, які необхідно зробити Виконавцеві.
+                                    Претензії без вказівки переліку доопрацювань розгляду не підлягають.
+                                    7. ІНШІ УМОВИ
+                                    7.1. Не допускається передача Замовником своїх прав та обов'язків за цим
+                                    Договором
+                                    третім особам без письмового погодження з Виконавцем.
+                                    7.2. Замовник дає свою згоду Виконавцю на використання та обробку його
+                                    персональних
+                                    данних в рамках чинного законодавства України.
+                                    8. КОНТАКТНІ ДАНІ ВИКОНАВЦЯ
+                                    https://intita.com/
+                                    E-mail: intitavn@gmail.com
+                                    Телефон:
+                                    +38(067) 431-74-24
+                                    <br>
+                                    <button type="button" class="modal__button" data-bs-dismiss="modal">Закрити
+                                        /&#62; </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="user-intita-details__block progress-block_m d-flex flex-column justify-content-between py-4">
+                    <div class="user-intita-details__title progress_title">Профіль заповнено на <label
+                            for="#progress"></label>68%
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="68"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                        <div class="progress-bar" id="progress" style="width: 68%"></div>
+                    </div>
+                </div>
+                <div class="social-net-intita_m">
+                    <a class="social-net-intita__item_m facebook"
+                        href="http://www.facebook.com/sharer.php?u=https://ita.in.ua/" title="facebook" target="_blank"
+                        rel="noopener">
+                        <img clas="facebook-img" src="src/icons/facebook 1 (1).svg" alt="facebook">
+                    </a>
+                    <a class="social-net-intita__item_m"
+                        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ita.in.ua/&amp;title=Hackers' School&amp;source=LinkedIn"
+                        target="_blank" title="linkedin" rel="noopener">
+                        <img src="src/icons/linkedin 1 (1).svg" alt="linkedin">
+                    </a>
+                    <a class="social-net-intita__item_m" href="https://twitter.com/share?url=https://ita.in.ua/"
+                        target="_blank" title="twitter" rel="noopener">
+                        <img src="src/icons/twitter 1 (1).svg" alt="twitter" width="28px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- desktop -->
+    <div class="container container_d mt-1">
+        <div class=" row">
+            <div class="user-info col-3 pt-4">
+                <div class="user-info__photo">
+                    <img class="user-info__photo__img" src="src/images/photo.png" alt="user photo" width="180px"
+                        height="180px">
+                    <div class="user-info__block__heading_main">Василь Глухенький</div>
+                </div>
+                <div class="user-info__block user-info__block_d">
+                    <div class="user-info__block__heading">КОНТАКТИ</div>
+                    <hr>
+                    <div class="user-info__block__item row">
+                        <button class="user-info__block__item__location user-info__block__item" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false"
+                            aria-controls="collapseExample"></button>
+                        <a class="user-info__block__item col" data-bs-toggle="collapse" href="#collapseExample1"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">807 5th Ave, New York,
+                            NY 10065, USA</a>
+                        <div class="collapse" id="collapseExample1">
+                            <div class="card card-body">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8264963207516!2d-73.97358148493294!3d40.765840679326004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f1d4dedbdd%3A0xfefbd509be6aae86!2zODA3IDV0aCBBdmUsIE5ldyBZb3JrLCBOWSAxMDA2NSwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1677535891053!5m2!1sru!2sua"
+                                    width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info__block__item row">
+                        <button class="user-info__block__item__phone" type="button">
+                        </button>
+                        <a class="user-info__block__item col" href="tel:+1-(212)-555-0160">+1-(212)-555-0160</a>
+                    </div>
+                    <div class="user-info__block__item row">
+                        <button class="user-info__block__item__email" type="button"></button>
+                        <a class="user-info__block__item col" href="mailto:univer@gmail.com">univer@gmail.com</a>
+                    </div>
+                </div>
+                <div class="user-info__block user-info__block_d">
+                    <div class="user-info__block__heading">СОЦІАЛЬНІ МЕРЕЖІ</div>
+                    <hr>
+                    <div class="user-info__block__item">
+                        <ul>
+                            <li>
+                                <a class="user-info__block__item col"
+                                    href="https://www.linkedin.com/in/vasyl-hlukhenkyi-312b84209/"
+                                    target="_blank">Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="user-info__block user-info__block_d">
+                    <div class="user-info__block__heading">ОСВІТА / РОБОТА</div>
+                    <hr>
+                    <div>
+                        <span class="user-info__block__heading_smal">Освіта:</span>
+                        <span class="user-info__block__item">Вища</span>
+                    </div>
+                    <div>
+                        <span class="user-info__block__heading_smal">Працює:</span>
+                        <span class="user-info__block__item">DevOPS</span>
+                    </div>
+                    <div>
+                        <span class="user-info__block__heading_smal">Форма навчання:</span>
+                        <span class="user-info__block__item">Вечірня</span>
+                    </div>
+                    <div>
+                        <span class="user-info__block__heading_smal">Тренер:</span>
+                        <span class="user-info__block__item">Vinnytsia IT Akademy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 user-intita-details ">
+                <div class="row user-intita-details_first">
+                    <div class="public-oferta d-flex align-items-center user-intita-details__block col">
+                        <div class="public-oferta__icon">
+                            <button class="public-oferta__icon_btn" type="button" data-bs-toggle="modal"
+                                data-bs-target="#oferta1"></button>
+                        </div>
+                        <div class="public-oferta__title user-intita-details__title">
+                            <a href="https://intita.com/policy" target="_blank">Публічна оферта</a>
+                        </div>
+                        <div class="modal fade" id="oferta1" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                    <div class="modal-body">
+                                        ДОГОВІР З НАДАННЯ ІНФОРМАЦІЙНИХ ПОСЛУГ
+                                        (НА ОСНОВІ ПУБЛІЧНОЇ ОФЕРТИ)
+                                        ТОВ “Вінницька ІТ-Академія”, в подальшому «Виконавець» пропонує будь-якій
+                                        фізичній особі
+                                        (надалі – «Замовник») укласти договір про надання інформаційних послуг на
+                                        наступних
+                                        умовах:
+                                        ВИКОРИСТАНІ ТЕРМІНИ:
+                                        ПУБЛІЧНА ОФЕРТА – пропозиція «Виконавця», викладена не веб-сайті:
+                                        http://intita.com/,
+                                        адресована невизначеному колу фізичних осіб, укласти договір на визначених
+                                        умовах.
+                                        ДОГОВІР - договір про надання інформаційних послуг, укладений між Замовником та
+                                        Виконавцем на умовах публічної оферти в момент акцепту замовником її умов.
+                                        АКЦЕПТ - повне та безумовне, беззастережне прийняття Замовником умов публічної
+                                        оферти.
+                                        Моментом акцепту вважається заявка Замовника на отримання інформаційних послуг.
+                                        ПОСЛУГА - надання виконавцем замовнику інформаційних послуг у сфері
+                                        інформатизації.
+                                        ЗАЯВКА - звернення Замовника до Виконавця, здійснене шляхом телефонного дзвінка,
+                                        електронного повідомлення.
+                                        1. ПРЕДМЕТ ДОГОВОРА
+                                        1.1. Предметом даного договору є послуга з надання виконавцем замовнику
+                                        інформаційного
+                                        консультування з питань інформатизіції: розкриття інформації з основ
+                                        Алгоритмізації і
+                                        програмування, дискретної математики, розробки та аналізу алгоритмів,
+                                        елементарної та
+                                        вищої математики, баз даних, комп'ютерних мереж, ООП, інтернет-програмування,
+                                        програмування під мобільні платформи, сучасні технології розробки програмних
+                                        продуктів,
+                                        англійської мови для програмістів тощо.
+                                        1.2. Замовник зобов'язується прийняти послуги, що надаються, і оплатити їх.
+                                        1.3. З урахуванням того, що текст цього Договору є публічною офертою
+                                        (пропозицією
+                                        укласти договір), Замовник і Виконавець визнають, що ухваленням пропозиції
+                                        укласти
+                                        договір є факт оформлення сторонами бланка заявки (Акцепту) з основними вимогами
+                                        Замовника (тематичне завдання), в процесі оформлення якого Замовник повідомляє
+                                        свої
+                                        реквізити і приймає текст цього Договору.
+                                        2. ВАРТІСТЬ ПОСЛУГ І ПОРЯДОК ЇХ ОПЛАТИ
+                                        2.1. Вартість робіт за даною угодою визначається Виконавцем.
+                                        2.2. Форма оплати: готівковий або безготівковий розрахунок.
+                                        2.3. Заявлена вартість послуг є попередньою і може бути змінена в
+                                        односторонньому
+                                        порядку Виконавцем залежно від терміновості, складності, об'єму здійснюваних дій
+                                        і
+                                        можливостей Виконавця.
+                                        2.4. У випадках, коли неможливість виконання виникла з обставин, за які жодна із
+                                        сторін
+                                        не відповідає. Замовник відшкодовує Виконавцеві фактично понесені ним витрати.
+                                        3. ПРАВА І ОБОВ'ЯЗКИ ЗАМОВНИКА
+                                        3.1. Обов'язки Замовника
+                                        3.1.1. Замовник зобов'язується провести своєчасну оплату послуг Виконавця.
+                                        3.1.2. Замовник зобов'язаний здійснити все інші дії, необхідні для виконання
+                                        даного
+                                        договору, передбачені законодавством і цим договором.
+                                        3.2. Права Замовника
+                                        3.2.1. Замовник має право за наявності конкретних питань (уточнюючі,
+                                        деталізуючі)
+                                        звернутися за консультацією.
+                                        4. ПРАВА І ОБОВ'ЯЗКИ ВИКОНАВЦЯ
+                                        4.1. Права Виконавця
+                                        4.1.1. Виконавець має право не надавати послуги, а початі дії з надання послуг
+                                        припинити
+                                        у випадках, коли порушення Замовником своїх обов'язків за даною угодою у
+                                        відповідність з
+                                        п.3.1.1 - п.3.1.2.
+                                        4.1.2. Виконавець має право самостійно визначати способи і об'єм дій з виконання
+                                        завдання Замовника, враховуючи вимоги завдання Замовника.
+                                        4.1.3. Виконавець має право використовувати і розпоряджатися результатами
+                                        власної
+                                        діяльності з надання інформаційних послуг, наданими Замовникові за власним
+                                        розсудом, у
+                                        тому числі і надавати їх третім особам.
+                                        4.2. Обов'язки Виконавця
+                                        4.2.1. Виконавець зобов'язується надати передбачені цим Договором послуги.
+                                        5. ЗАБЕЗПЕЧЕННЯ ВИКОНАННЯ ЗОБОВ'ЯЗАНЬ І ВІДПОВІДАЛЬНІСТЬ СТОРІН
+                                        5.1. Виконавець не несе відповідальності за спричинення збитків Замовникові, а
+                                        також
+                                        спричинення йому моральної шкоди діями третіх осіб в результаті невиконання
+                                        Замовником
+                                        навчального плану відповідного учбового закладу.
+                                        6. ЯКІСТЬ ПОСЛУГ І ПОРЯДОК ПРЕД'ЯВЛЕННЯ ПРЕТЕНЗІЙ
+                                        6.1. Замовник не має права пред'являти Виконавцеві вимог щодо неналежної якості
+                                        наданих
+                                        послуг у разі відсутності позитивного для Замовника результату.
+                                        6.2. Виконавець несе відповідальність за достовірність результатів своєї
+                                        діяльності з
+                                        надання інформаційних послуг.
+                                        6.3. Всі претензії Замовника з приводу якості наданих Виконавцем послуг
+                                        пред'являються
+                                        письмово з вказівкою переліку конкретних дій, які необхідно зробити Виконавцеві.
+                                        Претензії без вказівки переліку доопрацювань розгляду не підлягають.
+                                        7. ІНШІ УМОВИ
+                                        7.1. Не допускається передача Замовником своїх прав та обов'язків за цим
+                                        Договором
+                                        третім особам без письмового погодження з Виконавцем.
+                                        7.2. Замовник дає свою згоду Виконавцю на використання та обробку його
+                                        персональних
+                                        данних в рамках чинного законодавства України.
+                                        8. КОНТАКТНІ ДАНІ ВИКОНАВЦЯ
+                                        https://intita.com/
+                                        E-mail: intitavn@gmail.com
+                                        Телефон:
+                                        +38(067) 431-74-24
+                                        <br>
+                                        <button type="button" class="modal__button" data-bs-dismiss="modal">Закрити
+                                            /&#62; </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="user-intita-details__block progress-block col d-flex flex-column justify-content-between py-4">
+                        <div class="user-intita-details__title">Профіль заповнено на <label for="#progress1"></label>68%
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="68"
+                            aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                            <div class="progress-bar" id="progress1" style="width: 68%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row user-intita-details__block tab align-items-center">
+
+                    <button class="tablinks" onclick="showTab(event, 'Servise-tab')">Сервіси</button>
+                    <button class="tablinks" onclick="showTab(event, 'Project-tab')">Проекти</button>
+                    <button class="tablinks " onclick="showTab(event, 'Feedback-tab')">Твій відгук</button>
+                    <button class="tablinks" onclick="showTab(event, 'Diploma-tab')">Сертифікати</button>
+                </div>
+                <div id="Servise-tab" class="tabcontent user-intita-details__block">
+                    <div class="user-intita-details__servise">
+                        <div class="user-intita-details__servise__title d-flex">
+                            <span>курси</span>
+                            <hr>
+                        </div>
+                        <div class="servise-card">
+                            <div class=" servise-card__body ">
+                                <div class=" servise-card__text">
+                                    <div class="servise-card__title servise-card_hover">
+                                        <a href="https://intita.com/courses/3" target="_blank">Java Developer</a>
+                                    </div>
+                                    <div class="servise-card__academy servise-card_hover">
+                                        <a href="https://intita.com/providers/vinnytsia-it-academy"
+                                            target="_blank">Вінницька ІТ-Академія </a>
+                                    </div>
+                                </div>
+                                <div class="servise-card__logo">
+                                    <a href="https://intita.com/courses/3" target="_blank">
+                                        <img src="src/images/java.png" alt="logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="servise-card__footer">
+                                <div class="servise-card__footer__level">
+                                    <img src="src/images/Group 579.svg" alt="volume">
+                                    <span>Сильний початківець</span>
+                                </div>
+                                <div class="servise-card__footer__during">
+                                    <span>6 місяців (228 занять)</span>
+                                </div>
+                                <div class="servise-card__footer__lang">
+                                    <img src="src/images/Group.svg" alt="planet">
+                                    <div class="dropdown lang">
+                                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            ua
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">en</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-intita-details__servise">
+                        <div class="user-intita-details__servise__title d-flex">
+                            <span>модулі</span>
+                            <hr>
+                        </div>
+                        <div class="servise-card">
+                            <div class=" servise-card__body ">
+                                <div class=" servise-card__text">
+                                    <div class="servise-card__title servise-card_hover">
+                                        <a href="https://intita.com/modules/316" target="_blank">English Marathon</a>
+                                    </div>
+                                    <div class="servise-card__academy servise-card_hover">
+                                        <a href="https://intita.com/providers/vinnytsia-it-academy"
+                                            target="_blank">Вінницька ІТ-Академія</a>
+                                    </div>
+                                </div>
+                                <div class="servise-card__logo">
+                                    <a href="https://intita.com/modules/316" target="_blank">
+                                        <img src="src/images/english.png" alt="logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="servise-card__footer">
+                                <div class="servise-card__footer__level">
+                                    <img src="src/images/Group 579.svg" alt="volume">
+                                    <span>Високий</span>
+                                </div>
+                                <div class="servise-card__footer__during">
+                                    <span>2 місяці (21 заняття)</span>
+                                </div>
+                                <div class="servise-card__footer__lang">
+                                    <img src="src/images/Group.svg" alt="planet">
+                                    <div class="dropdown lang">
+                                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            ua
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">en</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Project-tab" class="tabcontent user-intita-details__block">
+                </div>
+                <div id="Feedback-tab" class="tabcontent user-intita-details__block feedback">
+                    <p class="container-fluid ">Колись давно, маючи диплом про вищу освіту і неясні перспективи, я
+                        вирішив зв'язати своє життя із програмуванням. Так почалося моє навчання у Вінницькій
+                        ІТ-Академії.
+                        Перед початком навчання мав доволі посередні знання про програмування - пробував проходити всякі
+                        онлайн курси, але там постійно чогось не вистачало.
+                        Згодом, провчившись деякий час, я зрозумів - мені не вистачало спілкування із такими ж
+                        бідолагами, коли ви обговорюєте задачу, яку не можете вирішити, спільними зусиллями допомагаєте
+                        один одному віднайти підхід до вирішення.
+                        Отож, коротко про те, що мені дала ІТ-Академія:
+                        - можливість спілкуватись і обмінюватися інформацією (це дуже важливо, особливо на початковому
+                        етапі - ви не один)
+                        - англійська, ні, АНГЛІЙСЬКА (вона тут шикарна. Просто робіть всі завдання, якщо по розробці не
+                        дотягуєте - англійська вас врятує.
+                        п.с. як можна раніше починайте відвідувати speaking club (спитайте у викладача))
+                        - алгоритмічне мислення, низькорівневі процеси.
+                        Ти вчиш англійську, освоюєш дзен програмування, щось пробуєш розібрати, питаєш постійно, коли
+                        питання є (уяви, що майбутнє світу залежить від того, чи задаси ти питання; тому постійно маючи
+                        щось, що не можеш зрозуміти - ПИТАЙ), вчиш англійську, а потім - вчиш англійську - якось так я
+                        би порадив вести себе, якщо плануєш винести якийсь багаж із ІТ-Академії.
+                    </p>
+                </div>
+                <div id="Diploma-tab" class="tabcontent user-intita-details__block text-center diploma">
+                    <img src="src/images/diploma..png" alt="sertificate">
+                </div>
+            </div>
+        </div>
+        <div class="social-net-intita row">
+            <a class="social-net-intita__item facebook" href="http://www.facebook.com/sharer.php?u=https://ita.in.ua/"
+                title="facebook" target="_blank" rel="noopener">
+                <img clas="facebook-img" src="src/icons/facebook 1.svg" alt="facebook">
+            </a>
+            <a class="social-net-intita__item"
+                href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ita.in.ua/&amp;title=Hackers' School&amp;source=LinkedIn"
+                target="_blank" title="linkedin" rel="noopener">
+                <img src="src/icons/linkedin 1.svg" alt="linkedin">
+            </a>
+            <a class="social-net-intita__item" href="https://twitter.com/share?url=https://ita.in.ua/" target="_blank"
+                title="twitter" rel="noopener">
+                <img src="src/icons/twitter 1.svg" alt="twitter">
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        function showTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+
+</html>
